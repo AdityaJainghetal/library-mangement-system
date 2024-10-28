@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background-image_2.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+    /* opacity: initial; */
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 180px;
+    position: relative;
+    font-size: 20px;
+    
+
+   
+   
+}
+
+#main .Registration{
+    border: 2px solid black;
+    padding: 30px;
+    background-color: rgb(62, 110, 151);
+    border-radius: 5px;
+    width: 400px;
+}
+
+#main .Registration .username{
+    color: white;
+
+}
+
+
+#main .Registration .username input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px; 
+    border: 1px solid #ccc; /
+}
+
+#main .Registration .signin{
+    border: 2px solid rgb(88, 78, 78);
+    margin-top: 20px;
+    padding: 5px;
+    /* padding-left: 10px; */
+
+}
+
+#main .Registration .signin a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    /* padding: 0px; */
+       
+}
+
+#main .Registration .signin :hover{
+    color: white;
+    background-color: rgb(30, 34, 36);
+
+}

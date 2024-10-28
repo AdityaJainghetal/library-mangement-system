@@ -1,0 +1,115 @@
+{
+  "Book": [
+    {
+      "Name": "Aditya",
+      "Email": "aditya@gmail.com",
+      "password": "123",
+      "re-password": "123",
+      "id": "11ae"
+    },
+    {
+      "id": "c2f9",
+      "Name": "Aditya",
+      "email": "adityajainghetal@gmail.com",
+      "password": "123",
+      "re-password": "1234"
+    },
+    {
+      "id": "5a10",
+      "Name": "Aditya",
+      "password": "1234"
+    },
+    {
+      "id": "b71f",
+      "Name": "Aditya",
+      "password": "1234"
+    },
+    {
+      "id": "7714",
+      "Name": "Aditya",
+      "password": "123"
+    },
+    {
+      "id": "87a5",
+      "Name": "Aditya Jain",
+      "email": "adityajainghetal@gmail.com",
+      "password": "1234",
+      "re-password": "1234"
+    },
+    {
+      "id": "212b",
+      "Name": "Aditya Jain",
+      "email": "adityajainghetal@gmail.com",
+      "password": "12341",
+      "re-password": "1234"
+    },
+    {
+      "id": "0df1",
+      "Name": "Aditya Jain",
+      "email": "adityajainghetal@gmail.com",
+      "password": "12345",
+      "re-password": "12345"
+    },
+    {
+      "id": "831f",
+      "Name": "Aditya",
+      "password": "123"
+    },
+    {
+      "id": "4dae",
+      "Name": "",
+      "password": ""
+    }
+  ],
+  "DataSave": [
+    {
+      "Name": "HTML",
+      "edition": "2015",
+      "Author": "Aditya Jain",
+      "Branch": "CS",
+      "Price": "450000",
+      "Quantity": "3",
+      "Photo": "photo"
+    },
+    {
+      "id": "99dd",
+      "Name": "JAVASCIPT",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "23000",
+      "Quantity": "2",
+      "Photo": "photo"
+    },
+    {
+      "id": "fb7c",
+      "Name": "Reacj .js",
+      "edition": "204",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "4500",
+      "Quantity": "2",
+      "Photo": "Photo"
+    },
+    {
+      "id": "751d",
+      "Name": "REACT .js",
+      "edition": "2021",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "3400",
+      "Quantity": "2",
+      "Photo": {}
+    },
+    {
+      "id": "82bc",
+      "Name": "html",
+      "edition": "2021",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "450089",
+      "Quantity": "4",
+      "Photo": {}
+    }
+  ]
+}
