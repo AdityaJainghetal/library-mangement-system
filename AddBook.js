@@ -14,7 +14,7 @@ async function addBook(e) {
     let Quantity = document.getElementById("Quantity").value;
     let fileInput = document.getElementById('fileInput').files[0];
 
-    // Check that all required fields are filled
+    
     if (bookname === "" || edition === "" || Author === "" || Price === "" || Quantity === "" || (!CS && !IT && !EC && other === "") || !fileInput) {
         alert("All fields are mandatory");
         return;
@@ -57,7 +57,7 @@ async function addBook(e) {
 
     if (response.ok) {
         alert("Data saved!");
-        window.location.href = "index.html";
+    
     } else {
         alert("There was an issue saving the data.");
     }

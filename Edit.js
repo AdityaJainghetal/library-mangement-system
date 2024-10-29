@@ -68,7 +68,7 @@ async function dataSave() {
         <br>
         Edit Quantity: <input type="text" id="Quantity" value="${Data.Quantity}">
         <br>
-        Edit Photo: <input type="upload" id="fileInput" value="${Data.fileInput}">
+        Edit Photo: <input type="file" id="fileInput" accept="image/*" value="${Data.Photo}">
         <br>
         <button onclick="EditSave('${Data.id}')">Save</button>
       `;
