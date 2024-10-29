@@ -1,5 +1,3 @@
-
-
 async function dataSave()
 {
  let Table=`<table width="100%" height="100%" border="1px" bgcolor="white" font-size="30px">

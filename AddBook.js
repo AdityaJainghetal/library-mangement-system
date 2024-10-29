@@ -13,9 +13,10 @@ async function addBook(e){
     let other = document.getElementById("other").value;
     let Price = document.getElementById("Price").value;
     let Quantity = document.getElementById("Quantity").value;
-    
+    let fileInput = document.getElementById('fileInput').files[0];
 
-    if(bookname === "" || edition === "" || Author ===  "" || Price === "" || Quantity === "" || CS === "" || IT === "" || EC === "" || other === ""){
+
+    if(bookname === "" || edition === "" || Author ===  "" || Price === "" || Quantity === "" || CS === "" || IT === "" || EC === "" || !fileInput || other === ""){
         alert("All fields are mandatory")
         return;
     }
@@ -31,7 +32,7 @@ const response= await fetch(api, {
       "Branch": CS || IT || EC || other,
       "Price":Price,
       "Quantity": Quantity,
-      "Photo": fileInput
+      "Photo": fileInput.name
      }),
      headers: {
         "Content-Type": "application/json",
@@ -43,38 +44,10 @@ const response= await fetch(api, {
 // }
 
 console.log(response);
+response =  window.location.href="index.html";
 alert("data save!!!");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -95,8 +68,8 @@ document.getElementById('uploadBtn').addEventListener('click', function() {
         };
 
         reader.readAsDataURL(fileInput.files[0]);
+       
     } else {
         alert('Please select an image file.');
     }
 });
-}

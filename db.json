@@ -69,7 +69,8 @@
       "Branch": "CS",
       "Price": "450000",
       "Quantity": "3",
-      "Photo": "photo"
+      "Photo": "photo",
+      "id": "4012"
     },
     {
       "id": "99dd",
@@ -110,6 +111,56 @@
       "Price": "450089",
       "Quantity": "4",
       "Photo": {}
+    },
+    {
+      "id": "71a1",
+      "Name": "React.js",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "457000",
+      "Quantity": "3",
+      "Photo": "online_store_ecommerce_website_shopping_marketplace_icon_225202.png"
+    },
+    {
+      "id": "5587",
+      "Name": "HTML",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "459900",
+      "Quantity": "4",
+      "Photo": "amazon_logo.png"
+    },
+    {
+      "id": "39ac",
+      "Name": "REACT .js",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "5600",
+      "Quantity": "4",
+      "Photo": "amazon3.png"
+    },
+    {
+      "id": "ea37",
+      "Name": "REACT .js",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "65756",
+      "Quantity": "4",
+      "Photo": "amazon_logo.png"
+    },
+    {
+      "id": "31a1",
+      "Name": "REACT .js",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "3400",
+      "Quantity": "3",
+      "Photo": "download (1).jpeg"
     }
   ]
 }
