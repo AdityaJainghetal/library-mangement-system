@@ -1,66 +1,79 @@
 document.getElementById("saveData").addEventListener("click", addBook);
 
-
-async function addBook(e){
+async function addBook(e) {
     e.preventDefault();
 
     let bookname = document.getElementById("name").value;
     let edition = document.getElementById("Edition").value;
     let Author = document.getElementById("Author").value;
-    let CS = document.getElementById("CS").value;
-    let IT = document.getElementById("IT").value;
-    let EC = document.getElementById("EC").value;
+    let CS = document.getElementById("CS").checked ? "CS" : "";
+    let IT = document.getElementById("IT").checked ? "IT" : "";
+    let EC = document.getElementById("EC").checked ? "EC" : "";
     let other = document.getElementById("other").value;
     let Price = document.getElementById("Price").value;
     let Quantity = document.getElementById("Quantity").value;
     let fileInput = document.getElementById('fileInput').files[0];
 
-
-    if(bookname === "" || edition === "" || Author ===  "" || Price === "" || Quantity === "" || CS === "" || IT === "" || EC === "" || !fileInput || other === ""){
-        alert("All fields are mandatory")
+    // Check that all required fields are filled
+    if (bookname === "" || edition === "" || Author === "" || Price === "" || Quantity === "" || (!CS && !IT && !EC && other === "") || !fileInput) {
+        alert("All fields are mandatory");
         return;
     }
 
-    let api= "http://localhost:3000/DataSave";
+    let api = "http://localhost:3000/DataSave";
+    let checkApi = "http://localhost:3000/DataSave";
 
-const response= await fetch(api, {
-    method: "POST",
-    body: JSON.stringify({ 
-      "Name":bookname,
-      "edition": edition,
-      "Author": Author,
-      "Branch": CS || IT || EC || other,
-      "Price":Price,
-      "Quantity": Quantity,
-      "Photo": fileInput.name
-     }),
-     headers: {
-        "Content-Type": "application/json",
-      }
-     
-});
-// if(genderMale || genderFemale || gender){
-//         document.write()
-// }
+    
+    const existingBooksResponse = await fetch(checkApi);
+    const existingBooks = await existingBooksResponse.json();
 
-console.log(response);
-response =  window.location.href="index.html";
-alert("data save!!!");
+    
+    const bookExists = existingBooks.some(book => book.Name === bookname && book.Edition === edition && book.Author === Author);
 
+    if (bookExists) {
+        alert("This book already exists in the store.");
+        return;
+    }
+
+  
+    const branch = CS || IT || EC || other;
+
+   
+    const response = await fetch(api, {
+        method: "POST",
+        body: JSON.stringify({
+            "Name": bookname,
+            "Edition": edition,
+            "Author": Author,
+            "Branch": branch,
+            "Price": Price,
+            "Quantity": Quantity,
+            "Photo": fileInput.name
+        }),
+        headers: {
+            "Content-Type": "application/json",
+        }
+    });
+
+    if (response.ok) {
+        alert("Data saved!");
+        window.location.href = "index.html";
+    } else {
+        alert("There was an issue saving the data.");
+    }
 }
-
 
 
 document.getElementById('uploadBtn').addEventListener('click', function() {
     const fileInput = document.getElementById('fileInput');
     const imagePreview = document.getElementById('imagePreview');
 
-    // Clear previous previews
+    
     imagePreview.innerHTML = '';
 
     if (fileInput.files && fileInput.files[0]) {
         const reader = new FileReader();
-        
+
         reader.onload = function(e) {
             const img = document.createElement('img');
             img.src = e.target.result;
@@ -68,7 +81,6 @@ document.getElementById('uploadBtn').addEventListener('click', function() {
         };
 
         reader.readAsDataURL(fileInput.files[0]);
-       
     } else {
         alert('Please select an image file.');
     }

@@ -161,6 +161,36 @@
       "Price": "3400",
       "Quantity": "3",
       "Photo": "download (1).jpeg"
+    },
+    {
+      "id": "d641",
+      "Name": "REACT .js",
+      "edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "5600",
+      "Quantity": "4",
+      "Photo": "library-management-system-php-min.png"
+    },
+    {
+      "id": "fddc",
+      "Name": "REACT .js",
+      "Edition": "2019-23",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "5600",
+      "Quantity": "4",
+      "Photo": "library-management-system-php-min.png"
+    },
+    {
+      "id": "ef7f",
+      "Name": "REACT .js",
+      "Edition": "2019-22",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "5600",
+      "Quantity": "4",
+      "Photo": "library-management-system-php-min.png"
     }
   ]
 }
