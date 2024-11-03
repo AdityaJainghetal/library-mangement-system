@@ -113,7 +113,7 @@ async function dataSave() {
             <td>${key.Author}</td>
             <td>${key.Price}</td>
             <td>${key.Quantity}</td>
-            <td>${key.Photo}</td>
+            <td><img src="${key.Photo}" alt="Book Photo" style="width: 100px; height: auto";></td>
             <td>
               <a href="#" onclick="editDisplay('${key.id}')">
                 <img src="edit.png" width="30" height="30">
