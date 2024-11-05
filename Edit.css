@@ -4,18 +4,32 @@ Table{
     /* width: 100%; */
     height: 100%;
     /* width: 300px; */
+    position: relative;
+    /* left: 100px; */
+    top: -100px;
+    
+    /* font-size: 30px; */
+
+    
+   
 }
 Table th{
     font-size: 20px;
     font-weight: 700;
     background-color: red;
+    font-size: 30px;
+    padding: 10px;
+    
 }
 
 Table tr{
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    
     text-align: center;
     align-items: center;
+    
+    /* padding: 30px; */
    
 }
 
@@ -25,6 +39,9 @@ myForm {
     align-items: center;
     flex-direction: column;
     border: 2px solid black;
+   width: 100vh;
+    border-radius: 20px;
+   
 }
 
  input{
@@ -34,3 +51,11 @@ myForm {
     padding-left: 20px;
 }
 
+
+#showbook #demo1 {
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    

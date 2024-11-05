@@ -19,7 +19,7 @@ async function dataSave()
           <th>Price</th>
           <th>Quantity</th>
           <th>Photo</th>
-          <th>Delted</th>
+          <th>Delete</th>
         </tr>
            `
 

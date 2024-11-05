@@ -4,7 +4,7 @@ async function addBook(e) {
     e.preventDefault();
 
     let bookname = document.getElementById("name").value;
-    let edition = document.getElementById("Edition").value;
+    let edition = document.getElementById("edition").value;
     let Author = document.getElementById("Author").value;
     let CS = document.getElementById("CS").checked ? "CS" : "";
     let IT = document.getElementById("IT").checked ? "IT" : "";
@@ -28,7 +28,7 @@ async function addBook(e) {
     const existingBooks = await existingBooksResponse.json();
 
     
-    const bookExists = existingBooks.some(book => book.Name === bookname && book.Edition === edition && book.Author === Author);
+    const bookExists = existingBooks.some(book => book.Name === bookname && book.edition === edition && book.Author === Author);
 
     if (bookExists) {
         alert("This book already exists in the store.");
@@ -43,7 +43,7 @@ async function addBook(e) {
         method: "POST",
         body: JSON.stringify({
             "Name": bookname,
-            "Edition": edition,
+            "edition": edition,
             "Author": Author,
             "Branch": branch,
             "Price": Price,

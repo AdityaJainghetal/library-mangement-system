@@ -93,44 +93,14 @@
       "Photo": "Photo"
     },
     {
-      "id": "751d",
-      "Name": "REACT .js",
-      "edition": "2021",
-      "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "3400",
-      "Quantity": "2",
-      "Photo": {}
-    },
-    {
-      "id": "82bc",
-      "Name": "html",
-      "edition": "2021",
-      "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "450089",
-      "Quantity": "4",
-      "Photo": {}
-    },
-    {
-      "id": "71a1",
       "Name": "React.js",
+      "Branch": "IT",
       "edition": "2019-23",
       "Author": "Rajis mishra",
-      "Branch": "CS",
       "Price": "457000",
       "Quantity": "3",
-      "Photo": "online_store_ecommerce_website_shopping_marketplace_icon_225202.png"
-    },
-    {
-      "id": "39ac",
-      "Name": "REACT .js",
-      "edition": "2019-23",
-      "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "5600",
-      "Quantity": "4",
-      "Photo": "amazon3.png"
+      "Photo": "blob:http://127.0.0.1:5500/cd57bc02-08d8-4fe3-8dcd-d849297c3d4c",
+      "id": "71a1"
     },
     {
       "id": "31a1",
@@ -143,34 +113,34 @@
       "Photo": "download (1).jpeg"
     },
     {
-      "id": "d641",
-      "Name": "REACT .js",
-      "edition": "2019-23",
+      "id": "7761",
+      "Name": "HTML",
+      "edition": "09-2024",
       "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "5600",
-      "Quantity": "4",
-      "Photo": "library-management-system-php-min.png"
+      "Branch": "IT",
+      "Price": "45000",
+      "Quantity": "5",
+      "Photo": "images.jpeg"
     },
     {
-      "id": "fddc",
-      "Name": "REACT .js",
-      "Edition": "2019-23",
+      "id": "5190",
+      "Name": "React.Js",
+      "edition": "08-2024",
       "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "5600",
+      "Branch": "IT",
+      "Price": "4000",
       "Quantity": "4",
-      "Photo": "library-management-system-php-min.png"
+      "Photo": "download (3).jpeg"
     },
     {
-      "id": "ef7f",
-      "Name": "REACT .js",
-      "Edition": "2019-22",
-      "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "5600",
-      "Quantity": "4",
-      "Photo": "library-management-system-php-min.png"
+      "Name": "CSS",
+      "Branch": "EC",
+      "edition": "09-2024",
+      "Author": "Aasra ",
+      "Price": "3500",
+      "Quantity": "3",
+      "Photo": "blob:http://127.0.0.1:5500/01c7ba7c-1165-4bb3-a1c8-f033b64884b4",
+      "id": "a670"
     }
   ]
 }
