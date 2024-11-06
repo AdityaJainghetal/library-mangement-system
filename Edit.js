@@ -69,7 +69,7 @@ async function saveEditData(myid) {
   
   async function editData() {
     let Table = `
-      <table width="100%" border="1" bgcolor="yellow">
+      <table width="100%" height="100%" border="1" bgcolor="yellow">
         <tr bgcolor="orange">
           <th>Name</th>
           <th>Branch</th>
