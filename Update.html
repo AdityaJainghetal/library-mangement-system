@@ -51,9 +51,9 @@
                     <span class="title">Password change</span></a>
                 </li>
                 <li>
-                    <a href="AddStudent.html">
+                    <a href="search.html">
                     <span class="icon"><i class="fa-solid fa-gears"></i></span>
-                    <span class="title">Add Student</span></a>
+                    <span class="title">Search</span></a>
                 </li>
                 <li>
                     <a href="register.html">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <!-- ----------------- -->
-            <main> 
+            
                 <!-- <h1 class="title">Dashboard</h1>
                 <ul class="breadcrumbs">
                     <li><a href="#"></a>Home</li>
@@ -89,79 +89,10 @@
                     <li><a href="$"></a>Dashboard</li>
                 </ul> -->
                  
-                <div class="header">
-                    <h1 style=" color: rgb(68, 57, 137); font-weight: 800; width: 200px; position: relative; left: 5px; top: 5px;">Dashboard</h1>
-                    
-                    <h4 id="demo2">Date</h4>
-                    <h3 id="demo">Date</h3>
-                    
-                    
-                </div>
-                <div class="info-data">
-                    
-                    <div class="card">
-                        <div class="head">
-                            <div>
-                                <h2>200</h2>
-                                <p>January</p>
-        
-                            </div>
-                            <i class="fa-solid fa-chart-line"></i>
-                        </div>
-                        <span class="progress" style="--value: 70%"></span>
-                        <span class="label">70%</span>
-                    </div>
-                    <!-- <div class="info-data"> -->
-                        <div class="card">
-                            <div class="head">
-                                <div>
-                                    <h2>500</h2>
-                                    <p>Februry</p>
-            
-                                </div>
-                                <i class="fa-solid fa-chart-line"></i>
-                            </div>
-                            <span class="progress"style="--value: 50%"></span>
-                            <span class="label">50%</span>
-                        </div>
-                    <!-- </div> -->
-                    <!-- <div class="info-data"> -->
-                        <div class="card">
-                            <div class="head">
-                                <div>
-                                    <h2>250</h2>
-                                    <p>March</p>
-            
-                                </div>
-                                <i class="fa-solid fa-chart-line"></i>
-                            </div>
-                            <span class="progress" style="--value: 60%"></span>
-                            <span class="label">60%</span>
-                        </div>
-                    <!-- </div> -->
-                    <!-- <div class="info-data"> -->
-                        <div class="card">
-                            <div class="head">
-                                <div>
-                                    <h2>500</h2>
-                                    <p>April</p>
-            
-                                </div>
-                                <i class="fa-solid fa-chart-line"></i>
-                            </div>
-                            <span class="progress" style="--value: 80%"></span>
-                            <span class="label">80%</span>
-                        </div>
-                </div>
-            </main>
-                <div class="image" style="display: flex; justify-content: center; align-items: center;">
-                    <img src="images/piechart3.png" alt="" style="width: 800px; height: 500px; cursor: pointer;">
-                    <img src="images/value.png" alt="" style="width: 630px; margin-top: 10px; height: 500px; cursor: pointer;">
-                    
-                </div>
+                
                 
 
-
+                <h1 id="demo"></h1>
        
     
         </div>
@@ -170,19 +101,19 @@
 
 
     <script>
-        function ToggleMenu(){
-            let toggle = document.querySelector('.toggle');
-            let navigation= document.querySelector('.navigation');
-            let main = document.querySelector('.main');
-            toggle.classList.toggle('active');
-            navigation.classList.toggle('active');
-            main.classList.toggle('active')
+        // function ToggleMenu(){
+        //     let toggle = document.querySelector('.toggle');
+        //     let navigation= document.querySelector('.navigation');
+        //     let main = document.querySelector('.main');
+        //     toggle.classList.toggle('active');
+        //     navigation.classList.toggle('active');
+        //     main.classList.toggle('active')
             
             
-        }
+        // }
 
 
-        setInterval(myTimer, 1000);
+        // setInterval(myTimer, 1000);
 
 function myTimer() {
   const date = new Date();
@@ -199,6 +130,7 @@ function myTimer() {
 
 
 <script src="dashbaord.js"></script>
+<script src="index.js"></script>
 
 </body>
 </html>

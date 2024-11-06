@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AddBook.css">
+    
+</head>
+<body>
+    <section id="main">
+        <div class="main-content">
+            <div class="AddBook">
+                <h1>Student Registration</h1>
+            </div>
+            <!-- <hr size="4px" style="top: -10px; position: relative;"> -->
+            <br>
+
+            <div class="box1">
+                <label for="text">Enter your Name</label>
+                <input type="text" id="username">
+                <br>
+            </div>
+            <br>
+            
+            <div class="box1">
+                <label for="text">Enter your year</label>
+                <input type="text" id="year">
+                <br>
+            </div>
+            <br>
+            
+            <div class="box1">
+                <label for="text">College name</label>
+                <input type="text" id="College">
+                <br>
+            </div>
+            <br>
+            
+            <div class="box1" style="display: flex; flex-direction: row; width: 400px;">
+                <input type="radio" id="CS" name="fav_language" value="CS">
+                <label for="male">CS Branch</label><br>
+                <input type="radio" id="IT" name="fav_language" value="IT">
+                <label for="Female">IT Branch</label><br>
+                <input type="radio" id="EC" name="fav_language" value="EC">
+                <label for="other">EC Branch</label>
+                <input type="radio" id="other" name="fav_language" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+        
+            <br>
+            <div class="box1">
+                <div class="container">
+                    <h1>Your photo</h1>
+                    <input type="file" id="fileInput" accept="image/*">
+                    <button id="uploadBtn">Upload</button>
+                    <div id="imagePreview" class="image-preview"></div>
+                </div>
+            </div>
+            <br>
+            <div class="box1">
+                <a href="./index.html" id="saveData">Submit</a>
+            </div>
+            
+            
+
+        </div>
+
+    </section>
+    <script src="AddStudent.js"></script>
+</body>
+</html>

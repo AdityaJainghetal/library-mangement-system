@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
@@ -11,75 +12,92 @@
     <link rel="stylesheet" href="Edit.css">
 </head>
 <body>
-    <div class="content">
-        <div class="search">
-        <input type="text" id="" placeholder="Search...">
-    </div>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="Dashbaord.html">
+                    <span class="icon"></span>
+                    <span class="title" style="font-family:  Roboto, sans-serif;"><h2>Dashboard</h2></span>
+                    </a>
+                    <span class="title" style="display: flex; justify-content: center; color: rgb(136, 195, 181); font-weight: 800; background-color: aliceblue;"><h3>Liberary managment system</h3></span>
+                </li>
+                <li>
+                    <a href="index.html">
+                    <span class="icon"><i class="fa-solid fa-chart-line"></i></span>
+                    <span class="title" style="font-family:  Roboto, sans-serif;">Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="AddBook.html">
+                    <span class="icon"><i class="fa-solid fa-user-plus"></i></span>
+                    <span class="title">Add Books</span></a>
+                </li>
+                <li>
+                    <a href="Update.html">
+                    <span class="icon"><i class="fa-solid fa-display"></i></span>
+                    <span class="title">Display data</span></a>
+                </li>
 
-    </div>
-
-    <div class="main">
-   <aside class="sidebar" >
-        <div class="box1">
-            <a href="Dashbaord.html">Dashboard</a>
+                <li>
+                    <a href="Edit.html">
+                    <span class="icon"><i class="fa-solid fa-user-pen"></i></span>
+                    <span class="title">Edit data</span></a>
+                </li>
+                <li>
+                    <a href="Delete.html">
+                    <span class="icon"><i class="fa-solid fa-trash"></i></span>
+                    <span class="title">Delete data</span></a>
+                </li>
+                <li>
+                    <a href="AddStudent.html">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <span class="title">Add Student</span></a>
+                </li>
+                <li>
+                    <a href="History.html">
+                    <span class="icon"><i class="fa-solid fa-gears"></i></span>
+                    <span class="title">History Student</span></a>
+                </li>
+                <li>
+                    <a href="Registration.html">
+                    <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                    <span class="title">Log out</span></a>
+                </li>
+            </ul>
         </div>
-        <br>
-        <hr style="font-size: 20px;">
         
-        <div class="box1">
-            <a> <i class="fa-solid fa-book"></i> </a>
-            <a href="index.html">Book</a>
-        </div>
-        <br>
-        <div class="box1">
-            <a href="index.html"><i class="fa-solid fa-id-card"></i></a>
-            <a href="index.html">issue book</a>
-        </div>
-        <br>
-        <div class="box1">
-            <a href="index.html"><i class="fa-solid fa-file-pen"></i></a>
-            <a href="index.html">author book</a>
-        </div>
-        <br>
-        <div class="box1">
-            <a href="index.html"><i class="fa-solid fa-file-pen"></i></a>
-            <a href="index.html">Total book</a>
-        </div>
-        <br>
-        <div class="box1">
-            <a href="Edit.html"><i class="fa-solid fa-user-pen"></i></a>
-            <a href="Edit.html">Edit book</a>
-        </div>
-        <br>
-        <div class="box1">
-            <a href="index.html"><i class="fa-solid fa-file-pen"></i></a>
-            <a href="Delete.html">Delted book</a>
-        </div>
-        <br>
-        <div class="box1">
-            <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
-            <a href="login.html">Log out</a>
-        </div>
-        <br>
-        
-   </aside>
+        <div class="main">
+            <!-- <div class="togbar">
+                <div class="toggle" onclick="ToggleMenu();">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
 
-    <!-- <div class="main-content" style="display: flex; justify-content: center; "> -->
-        <!-- <div class="heading" >
-            <h1>Library management system</h1>
-        </div> -->
+                <div class="search">
+                    <label>
+                        <input type="search" placeholder="Search..." id="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    
+                </div>
+                <div class="user">
+                    <img src="images/photo.jpg" alt="">
+                </div>
+            </div> -->
+            <!-- ----------------- -->
+           
         
     
-
-    
-    <!-- ------------------->
-    <div id="showbook" >
-        <p id="demo"  style="display: flex; justify-content: center; align-items: center; padding: 120px;"></p>
+    <!-- <div id="showbook"  > 
+         <p id="demo"  style="display: flex; justify-content: center; align-items: center; padding: 40px; position: relative; top: 10px;"></p> -->
         <!-- <p id="demo1" style="display: flex; flex-direction: column; justify-content: center; align-items: center; border: 2px solid black; border-radius: 20px; align-items: center; background-color: rgb(148, 144, 180); font-size:20px;" ></p> -->
-
+        <p id="demo" style="display: flex; justify-content: center; text-align: center; padding-left: 80px;"></p>
+        <p id="demo1"></p>
+    <!-- </div> -->
+    
     </div>
+    
     </div>
-</div>
+   
 <script src="index.js"></script>
 <script src="Edit.js"></script>
 <script src="Delete.js"></script>

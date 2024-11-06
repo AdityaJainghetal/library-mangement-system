@@ -69,38 +69,8 @@
       "Branch": "CS",
       "Price": "450000",
       "Quantity": "3",
-      "Photo": "photo",
+      "Photo": "download (3).jpeg",
       "id": "4012"
-    },
-    {
-      "id": "99dd",
-      "Name": "JAVASCIPT",
-      "edition": "2019-23",
-      "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "23000",
-      "Quantity": "2",
-      "Photo": "photo"
-    },
-    {
-      "id": "fb7c",
-      "Name": "Reacj .js",
-      "edition": "204",
-      "Author": "Rajis mishra",
-      "Branch": "CS",
-      "Price": "4500",
-      "Quantity": "2",
-      "Photo": "Photo"
-    },
-    {
-      "Name": "React.js",
-      "Branch": "IT",
-      "edition": "2019-23",
-      "Author": "Rajis mishra",
-      "Price": "457000",
-      "Quantity": "3",
-      "Photo": "blob:http://127.0.0.1:5500/cd57bc02-08d8-4fe3-8dcd-d849297c3d4c",
-      "id": "71a1"
     },
     {
       "id": "31a1",
@@ -133,14 +103,68 @@
       "Photo": "download (3).jpeg"
     },
     {
-      "Name": "CSS",
-      "Branch": "EC",
-      "edition": "09-2024",
-      "Author": "Aasra ",
-      "Price": "3500",
+      "id": "4351",
+      "Name": "HTML",
+      "edition": "2019",
+      "Author": "Rajis mishra",
+      "Branch": "CS",
+      "Price": "45000",
       "Quantity": "3",
-      "Photo": "blob:http://127.0.0.1:5500/01c7ba7c-1165-4bb3-a1c8-f033b64884b4",
-      "id": "a670"
+      "Photo": "download (2).jpeg"
+    },
+    {
+      "id": "4351",
+      "Name": "REACT .js",
+      "edition": "2019",
+      "Author": "Rajis mishra",
+      "Branch": "IT",
+      "Price": "45000",
+      "Quantity": "3",
+      "Photo": "download (3).jpeg"
+    },
+    {
+      "id": "f722",
+      "Name": "REACT .js",
+      "edition": "09-2025",
+      "Author": "Sanju",
+      "Branch": "CS",
+      "Price": "678000",
+      "Quantity": "36",
+      "Photo": "download (2).jpeg"
+    }
+  ],
+  "Student": [
+    {
+      "id": "4012",
+      "Name": "Aditya Jain",
+      "year": "2015",
+      "College": "TIT",
+      "Branch": "CS",
+      "Photo": "download (3).jpeg"
+    },
+    {
+      "id": "0b06",
+      "Name": "Danish khan",
+      "year": "2020",
+      "College": "GBI college",
+      "Branch": "EC",
+      "Photo": "edit.png"
+    },
+    {
+      "id": "53be",
+      "Name": "Aaditya_jain",
+      "year": "2",
+      "College": "Chada college",
+      "Branch": "IT",
+      "Photo": "photo.jpg"
+    },
+    {
+      "id": "32d3",
+      "Name": "Vikas",
+      "year": "3",
+      "College": "LNCT",
+      "Branch": "CS",
+      "Photo": "piechart3.png"
     }
   ]
 }

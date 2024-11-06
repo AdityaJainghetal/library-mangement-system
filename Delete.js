@@ -10,7 +10,7 @@ async function deleteData(id) {
 
 async function dataSave()
 {
- let Table=` <table width="100%" height="100%" border="1px" bgcolor="white" style="font-size: 30px;">
+ let Table=` <table width="50%" height="50%" border="1px" bgcolor="white" style="font-size: 30px">
         <tr bgcolor="orange">
           <th>Name</th>
           <th>Edition</th>
