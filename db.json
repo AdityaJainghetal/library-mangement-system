@@ -125,36 +125,45 @@
   ],
   "Student": [
     {
-      "id": "4012",
-      "Name": "Aditya Jain",
-      "year": "2015",
-      "College": "TIT",
-      "Branch": "CS",
-      "Photo": "download (3).jpeg"
-    },
-    {
-      "id": "0b06",
-      "Name": "Danish khan",
-      "year": "2020",
-      "College": "GBI college",
-      "Branch": "EC",
-      "Photo": "edit.png"
-    },
-    {
       "id": "53be",
       "Name": "Aaditya_jain",
       "year": "2",
-      "College": "Chada college",
+      "College": "LNCT College",
       "Branch": "IT",
       "Photo": "photo.jpg"
     },
     {
-      "id": "32d3",
-      "Name": "Vikas",
+      "id": "4012",
+      "Name": "Ram maheswari",
+      "year": "4",
+      "College": "TIT",
+      "Branch": "CS",
+      "Photo": "Student.jpeg"
+    },
+    {
+      "id": "fc29",
+      "Name": "Pawan",
       "year": "3",
+      "College": "TIT",
+      "Branch": "CS",
+      "Photo": "Student.jpeg"
+    },
+    {
+      "id": "6d89",
+      "Name": "ankur ",
+      "year": "4",
+      "College": "TIT",
+      "Branch": "CS",
+      "Photo": "stundet2.jpeg"
+    },
+    {
+      "id": "08dd",
+      "Name": "Abhay dixit",
+      "year": "4",
       "College": "LNCT",
       "Branch": "CS",
-      "Photo": "piechart3.png"
+      "Photo": "stundet2.jpeg"
     }
+    
   ]
 }

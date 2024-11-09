@@ -56,7 +56,8 @@ async function addBook(e) {
     });
 
     if (response.ok) {
-        alert("Data saved!");
+        // alert("Data saved!");
+        document.location.href="index.html"
     
     } else {
         alert("There was an issue saving the data.");

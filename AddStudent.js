@@ -49,16 +49,21 @@ async function addBook(e) {
         }),
         headers: {
             "Content-Type": "application/json",
-        }
+        },
+        
 
     });
 
-    if (response.ok) {
-        alert("Data saved!");
     
+
+    if (response.ok) {
+        document.location.href= "index.html"
+
+        
     } else {
         alert("There was an issue saving the data.");
     }
+    
 }
 
 
