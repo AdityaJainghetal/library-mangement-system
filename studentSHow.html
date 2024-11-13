@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Update.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                    <span class="icon"></span>
+                    <span class="title" style="font-family:  Roboto, sans-serif;"><h2>Dashboard</h2></span>
+                    </a>
+                    <span class="title" style="display: flex; justify-content: center; color: rgb(136, 195, 181); font-weight: 800; background-color: aliceblue;"><h3>Liberary managment system</h3></span>
+                </li>
+                <li>
+                    <a href="index.html">
+                    <span class="icon"><i class="fa-solid fa-chart-line"></i></span>
+                    <span class="title" style="font-family:  Roboto, sans-serif;">Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="AddBook.html">
+                    <span class="icon"><i class="fa-solid fa-user-plus"></i></span>
+                    <span class="title">Add Books</span></a>
+                </li>
+                <li>
+                    <a href="Update.html">
+                    <span class="icon"><i class="fa-solid fa-display"></i></span>
+                    <span class="title">Display data</span></a>
+                </li>
+
+                <li>
+                    <a href="Edit.html">
+                    <span class="icon"><i class="fa-solid fa-user-pen"></i></span>
+                    <span class="title">Edit data</span></a>
+                </li>
+                <li>
+                    <a href="Delete.html">
+                    <span class="icon"><i class="fa-solid fa-trash"></i></span>
+                    <span class="title">Delete data</span></a>
+                </li>
+                <li>
+                    <a href="AddStudent.html">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <span class="title">Add Student</span></a>
+                </li>
+                <li>
+                    <a href="History.html">
+                    <span class="icon"><i class="fa-solid fa-gears"></i></span>
+                    <span class="title">History Student</span></a>
+                </li>
+                <li>
+                    <a href="Registration.html">
+                    <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                    <span class="title">Log out</span></a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="main">
+            <div class="togbar">
+                <div class="toggle" onclick="ToggleMenu();">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="search" placeholder="Search..." id="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    
+                </div>
+                <div class="user">
+                    <img src="images/photo.jpg" alt="">
+                </div>
+            </div>
+            <!-- ----------------- -->
+            
+                <!-- <h1 class="title">Dashboard</h1>
+                <ul class="breadcrumbs">
+                    <li><a href="#"></a>Home</li>
+                    <li class="divider">/</li>
+                    <li><a href="$"></a>Dashboard</li>
+                </ul> -->
+                 
+                
+                
+
+                <h1 id="demo"></h1>
+       
+    
+        </div>
+    
+    </div>
+
+
+    <script>
+        // function ToggleMenu(){
+        //     let toggle = document.querySelector('.toggle');
+        //     let navigation= document.querySelector('.navigation');
+        //     let main = document.querySelector('.main');
+        //     toggle.classList.toggle('active');
+        //     navigation.classList.toggle('active');
+        //     main.classList.toggle('active')
+            
+            
+        // }
+
+
+        // setInterval(myTimer, 1000);
+
+function myTimer() {
+  const date = new Date();
+  document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+  document.getElementById("demo2").innerHTML = date.toDateString();
+  document.getElementById("demo2").style.fontSize= "13px";
+  document.getElementById("demo2").style.paddingLeft= "5px";
+  document.getElementById("demo").style.fontSize= "13px";
+  document.getElementById("demo").style.paddingLeft= "5px";
+  document.getElementById("demo2").style.color= "Darkblue";
+  document.getElementById("demo").style.color= "Darkblue";
+}
+    </script>
+
+
+<script src="dashbaord.js"></script>
+<!-- <script src="Issue_Book.js"></script> -->
+<script src="studentSHow.js"></script>
+
+</body>
+</html>

@@ -130,7 +130,39 @@
       "year": "2",
       "College": "LNCT College",
       "Branch": "IT",
-      "Photo": "photo.jpg"
+      "Photo": "photo.jpg",
+      "issuedBooks": [
+        {
+          "id": "dc29",
+          "Name": "HTML",
+          "edition": "2019",
+          "Author": "Aditya",
+          "Branch": "CS",
+          "Price": "450000",
+          "Quantity": "2",
+          "Photo": "download.jpeg"
+        },
+        {
+          "id": "5190",
+          "Name": "React.Js",
+          "edition": "08-2024",
+          "Author": "Rajis mishra",
+          "Branch": "IT",
+          "Price": "4000",
+          "Quantity": "4",
+          "Photo": "download (3).jpeg"
+        },
+        {
+          "Name": "HTML",
+          "edition": "2015",
+          "Author": "Aditya Jain",
+          "Branch": "CS",
+          "Price": "450000",
+          "Quantity": "3",
+          "Photo": "download (3).jpeg",
+          "id": "4012"
+        }
+      ]
     },
     {
       "id": "4012",
