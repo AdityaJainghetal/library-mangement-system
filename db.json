@@ -161,6 +161,26 @@
           "Quantity": "3",
           "Photo": "download (3).jpeg",
           "id": "4012"
+        },
+        {
+          "id": "7761",
+          "Name": "HTML",
+          "edition": "09-2024",
+          "Author": "Rajis mishra",
+          "Branch": "IT",
+          "Price": "45000",
+          "Quantity": "5",
+          "Photo": "images.jpeg"
+        },
+        {
+          "id": "7761",
+          "Name": "HTML",
+          "edition": "09-2024",
+          "Author": "Rajis mishra",
+          "Branch": "IT",
+          "Price": "45000",
+          "Quantity": "5",
+          "Photo": "images.jpeg"
         }
       ]
     },

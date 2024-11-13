@@ -75,8 +75,10 @@ async function addBooks(data){
             "Content-Type": "application/json"
         },
         body: JSON.stringify(newdata)
+        
 
     });
+    alert("book Issued")
 
 
      

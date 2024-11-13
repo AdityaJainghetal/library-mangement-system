@@ -1,0 +1,72 @@
+Table{
+    display: flex;
+    justify-content: center;
+     border: 2px solid black; 
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding-top:0px; 
+     width: 1300px; 
+     margin-top: 20px;
+     /* margin-left: px; */
+
+    /* height: 100%; */
+    /* width: 300px; */
+    /* position: relative; */
+    /* left: 100px; */
+    /* top: -100px; */
+    
+    /* font-size: 30px; */
+
+    
+   
+}
+Table th{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+Table tr{
+    font-size: 20px;
+    font-weight: 500;
+    
+    text-align: center;
+    align-items: center;
+    /* width: 100%; */
+    
+    /* padding: 30px; */
+   
+}
+
+myForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* border: 2px solid black; */
+   /* width: 100vh; */
+    /* border-radius: 20px; */
+   
+}
+
+ input{
+    font-size: 20px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+
+#showbook #demo1 {
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        /* padding: 10px; */
+    }
+    
